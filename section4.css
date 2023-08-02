@@ -1,0 +1,167 @@
+.section4 {
+    background-color: white;
+    padding: 50px;
+    height: fit-content;
+    margin-bottom: 50px;
+}
+
+.section4h3 {
+    color: black;
+    font-size: 14px;
+    line-height: 25px;
+    margin-top: 40px;
+    font-family: "montserrat", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.section4p {
+    color: black;
+    font-size: 12px;
+    line-height: 22px;
+}
+
+.a {
+    color: black;
+    font-size: 12px;
+    line-height: 22px;
+    list-style: square;
+    list-style-position: inside;
+}
+
+.section4ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.section4skrift {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.section4skrift2 {
+    width: 500px;
+}
+
+@media screen and (min-width: 350px) {
+    .section4h3 {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .section4p {
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+    .a {
+        line-height: 22px;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .section4skrift2 {
+        width: 500px;
+    }
+
+    .section4h3 {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .section4skrift2 {
+        width: 500px;
+    }
+
+    .section4h3 {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .section4p {
+        line-height: 22px;
+    }
+
+    .a {
+        line-height: 22px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .section4skrift2 {
+        width: 350px;
+    }
+
+    .section4h3 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .section4p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .a {
+        font-size: 14px;
+        line-height: 25px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .section4skrift2 {
+        width: 400px;
+    }
+
+    .section4skrift {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .section4skrift2 {
+        width: 400px;
+    }
+
+    .section4h3 {
+        font-size: 22px;
+        line-height: 35px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .section4skrift2 {
+        width: 500px;
+    }
+
+    .section4p {
+        font-size: 16px;
+    }
+
+    .a {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 2400px) {
+    .section4skrift2 {
+        width: 700px;
+    }
+
+    .section4h3 {
+        font-size: 22px;
+        line-height: 40px;
+    }
+
+    .section4p {
+        font-size: 18px;
+        line-height: 35px;
+    }
+
+    .a {
+        font-size: 18px;
+        line-height: 35px;
+    }
+}

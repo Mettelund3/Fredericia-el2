@@ -1,0 +1,11 @@
+.section5 {
+    background-color: #f0ead6;
+    height: fit-content;
+    padding: 50px;
+}
+
+.kontaktikoner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

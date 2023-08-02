@@ -1,0 +1,359 @@
+.section3 {
+    background-color: #607548;
+}
+
+* {box-sizing:border-box}
+
+.slideshow-container {
+  width: 95%;
+  position: relative;
+  height: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+  margin-bottom: 40px;
+  margin-top: 70px;
+}
+
+.slideshowbillede {
+    height: 250px
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.section3container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.section3skrift {
+    width: 100%;
+    background-color: #f0ead6;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+    margin-bottom: 70px;
+}
+
+.section3h3 {
+    font-size: 14px;
+    color: black;
+    font-family: "montserrat", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 25px;
+}
+
+.section3p {
+    font-size: 12px;
+    color: black;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@media screen and (min-width: 350px) {
+    .slideshow-container {
+        width: 350px;
+        height: 250px;  
+        margin-bottom: 40px;
+        margin-top: 70px;
+    }
+
+    .slideshowbillede {
+        height: 250px
+    }
+
+    .section3skrift {
+        width: 100%;
+        margin-bottom: 70px;
+    }
+
+    .section3h3 {
+        margin-top: 20px;
+        text-align: center;
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .section3p {
+        margin-top: 5px;
+        margin-bottom: 15px;
+        font-size: 12px;
+        line-height: 20px;
+        text-align: center;
+        padding: 0 35px 0 35px;
+    }
+}
+
+@media screen and (min-width: 400px) {
+    .slideshow-container {
+        width: 400px; 
+    }
+
+    .section3skrift {
+        width: 100%;
+    }
+
+    .section3p {
+        padding: 0 60px 0 60px;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .slideshow-container {
+        width: 500px;
+        height: 300px;  
+        margin-bottom: 40px;
+    }
+
+    .slideshowbillede {
+        height: 300px
+    }
+
+    .section3skrift {
+        margin-bottom: 80px;
+    }
+
+    .section3p {
+        padding: 0 80px 0 80px;
+    }
+}
+
+
+@media screen and (min-width: 600px) {
+    .slideshow-container { 
+        margin-bottom: 60px;
+    }
+
+    .section3skrift {
+        margin-bottom: 100px;
+    }
+
+    .section3h3 {
+        font-size: 16px;
+    }
+
+    .section3p {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 14px;
+        line-height: 25px;
+        padding: 0 120px 0 120px;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .slideshow-container {
+        width: 600px;
+        height: 400px;
+    }
+
+    .slideshowbillede {
+        height: 400px
+    }
+
+    .section3p {
+        padding: 0 150px 0 150px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .slideshow-container {
+        width: 600px;
+        height: 400px;
+    }
+
+    .slideshowbillede {
+        height: 400px
+    }
+
+    .section3skrift {
+        margin-bottom: 100px;
+    }
+
+    .section3h3 {
+        margin-top: 20px;
+        font-size: 18px;
+    }
+
+    .section3p {
+        padding: 0 200px 0 200px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .slideshow-container {
+        width: 550px;
+        height: 350px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .slideshowbillede {
+        height: 350px
+    }
+
+    .section3skrift {
+        width: 300px;
+        margin-bottom: 0;
+    }
+
+    .section3h3 {
+        font-size: 18px;
+        margin-top: 130px;
+        text-align: start;
+    }
+
+    .section3p {
+        padding: 0px;
+        text-align: start;
+    }
+}
+
+@media screen and (min-width: 1150px) {
+    .slideshow-container {
+        width: 600px;
+        height: 400px;
+    }
+
+    .slideshowbillede {
+        height: 400px
+    }
+
+    .section3skrift {
+        width: 350px;
+    }
+
+    .section3h3 {
+        font-size: 18px;
+        margin-top: 150px;
+    }
+
+    .section3p {
+        margin-top: 10px;
+        font-size: 14px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .slideshow-container {
+        width: 650px;
+        height: 450px;
+    }
+
+    .slideshowbillede {
+        height: 450px
+    }
+
+    .section3skrift {
+        width: 400px;
+    }
+
+    .section3h3 {
+        font-size: 20px;
+        margin-top: 200px;
+    }
+
+    .section3p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .slideshow-container {
+        width: 700px;
+        height: 500px;
+    }
+
+    .slideshowbillede {
+        height: 500px
+    }
+
+    .section3skrift {
+        width: 450px;
+    }
+
+    .section3h3 {
+        margin-top: 250px;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .slideshow-container {
+        width: 700px;
+        height: 500px;
+    }
+
+    .slideshowbillede {
+        height: 500px
+    }
+
+    .section3skrift {
+        width: 500px;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    .slideshow-container {
+        width: 750px;
+        height: 550px;
+    }
+
+    .slideshowbillede {
+        height: 550px
+    }
+
+    .section3h3 {
+        font-size: 22px;
+    }
+
+    .section3p {
+        font-size: 18px;
+    }
+}
