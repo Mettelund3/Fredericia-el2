@@ -1,11 +1,27 @@
 .section5 {
     background-color: #f0ead6;
     height: fit-content;
-    padding: 50px;
+    padding: 20px;
 }
 
 .kontaktikoner {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+
+.kontaktlinks {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    text-align: center;
+    width: 33%;
+}
+
+@media screen and (min-width: 300px) and (max-width: 700px){
+    .kontaktlinks {
+        font-size: 14px;
+    }
 }
