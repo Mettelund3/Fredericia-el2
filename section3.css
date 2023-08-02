@@ -73,7 +73,7 @@
 }
 
 .section3h3 {
-    font-size: 14px;
+    font-size: 16px;
     color: black;
     font-family: "montserrat", sans-serif;
     font-weight: 600;
@@ -82,7 +82,7 @@
 }
 
 .section3p {
-    font-size: 12px;
+    font-size: 14px;
     color: black;
     font-weight: 400;
     font-style: normal;
@@ -116,14 +116,14 @@
     .section3h3 {
         margin-top: 20px;
         text-align: center;
-        font-size: 14px;
+        font-size: 16px;
         line-height: 25px;
     }
 
     .section3p {
         margin-top: 5px;
         margin-bottom: 15px;
-        font-size: 12px;
+        font-size: 14px;
         line-height: 20px;
         text-align: center;
         padding: 0 35px 0 35px;
@@ -175,13 +175,13 @@
     }
 
     .section3h3 {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .section3p {
         margin-top: 10px;
         margin-bottom: 20px;
-        font-size: 14px;
+        font-size: 16px;
         line-height: 25px;
         padding: 0 120px 0 120px;
     }
