@@ -49,6 +49,9 @@ h2 {
 
     .section2h3 {
         font-size: 16px;
+        font-family: "montserrat", sans-serif;
+        font-weight: 600;
+        font-style: normal;
     }
 
     .section2img {
