@@ -18,13 +18,16 @@ li {
 
 a {
     text-decoration: none;
-    padding: 1rem;
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
-    padding: 2rem 1.5rem;
+    padding: 10px 0;
+}
+
+.nav-logo {
+    margin-left: 10%;
 }
 
 .hamburger {
@@ -44,7 +47,6 @@ a {
 .nav-menu {
     display: flex;
     align-items: center;
-    margin-right: 5rem;
     padding: 2rem;
 }
 
@@ -64,14 +66,6 @@ a {
     text-decoration: underline;
 }
 
-.nav-logo {
-    font-size: 40px;
-    color: #000;
-    padding-left: 50px;
-    font-family: "montserrat", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-}
 
 @media only screen and (max-width: 1200px){
     .nav-link {
@@ -79,19 +73,17 @@ a {
     }
 
     .nav-menu {
-        margin-right: 20px;
         justify-content: center;
     }
 }
 
 @media only screen and (min-width: 820px) and (max-width: 1088px){
     .nav-logo {
-        font-size: 25px;
-        padding-left: 20px;
+        margin-left: 5%;
     }
 
-    .nav-menu {
-        margin-right: -20px;
+    .navimg {
+        width: 90%;
     }
 
     .nav-link {
@@ -127,7 +119,11 @@ a {
     }
 
     .nav-logo {
-        font-size: 30px;
+        margin-left: 5%;
+    }
+
+    .navimg {
+        width: 90%;
     }
 
     .nav-link {
@@ -137,7 +133,9 @@ a {
     .hamburger {
         display: block;
         cursor: pointer;
-        padding: 1rem;
+        padding: 1.2rem;
+        margin-top: 2%;
+        margin-right: 10px;
     }
 
     .bar {
