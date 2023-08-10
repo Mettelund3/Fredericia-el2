@@ -60,6 +60,7 @@ a {
     font-family: "montserrat", sans-serif;
     font-weight: 400;
     font-style: normal;
+    padding: 10px;
 }
 
 .nav-link:hover {
@@ -70,6 +71,7 @@ a {
 @media only screen and (max-width: 1200px){
     .nav-link {
         font-size: 16px;
+        padding: 10px;
     }
 
     .nav-menu {
@@ -88,6 +90,7 @@ a {
 
     .nav-link {
         font-size: 14px;
+        padding: 10px;
     }
 }
 
@@ -128,6 +131,7 @@ a {
 
     .nav-link {
         color: #000;
+        padding: 10px;
     }
 
     .hamburger {
